@@ -37,10 +37,13 @@ background-color:#a453ef;
   font-size:30px;
   margin-left: 190px;
 }
+.container{
+  height:450px;
+}
 
 .container-fluid {
   width:100%;
-  height:200px;
+  height:150px;
   background-image:url("http://www.margusriga.com/wp-content/uploads/2017/07/cool-background-design.jpg");
 }
 h1{
@@ -59,9 +62,8 @@ img{
 }
 .footer{
   width:100%;
-  height: 20px;
+  height: 45px;
+  background-color:#a453ef;
 }
-.bottom{
-  height:30px;
-}
+
 

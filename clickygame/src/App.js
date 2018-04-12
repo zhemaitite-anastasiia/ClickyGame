@@ -29,13 +29,10 @@ class App extends Component {
 <img alt="" src={'https://g7d8r29h4o12bn43l2xflqq5-wpengine.netdna-ssl.com/wp-content/uploads/2016/05/vectoredit_sectionheads_characters2.png'} />
 </main>
 <footer className="footer">
-<div class = "bottom">
 "ClickyGame!"
-<img alt= "react" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png" /></div>
-
+<img alt= "react" style={{width:'40px', height:"30px", }} src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png" />
   </footer>
 </div>
-
 
 
    )
