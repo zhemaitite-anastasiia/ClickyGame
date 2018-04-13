@@ -1,5 +1,5 @@
 .card {
-    background: green;
+    background: rgb(156, 42, 156);
     margin-left: 50px;
     border: 20px;
     border-color: black;
@@ -17,7 +17,7 @@
     height: 100%;
     overflow: hidden;
     text-align: center;
-    background: radial-gradient(rgb(230, 14, 14), rgb(230, 169, 40));
+    background: radial-gradient(rgb(230, 14, 14),rgb(228, 191, 228));
   }
   
   .card > .img-container > img {
