@@ -18,7 +18,7 @@ class App extends Component {
     this.state.images.forEach((image) => {
       if (image.id === id) {
         if (image.clicked) {
-          alert("You Lost!! This card was previously selected.");
+          alert("You Lost!! This card was previously selected. Try one more time.");
           this.setState({})
           this.resetGame();
           return false;
@@ -60,7 +60,7 @@ class App extends Component {
         highScore: newState.score
       }))
     }
-    wining = () => {
+    winning = () => {
       if (this.state.score === this.state.images) {
         alert("YOU WIN! Congratulations!")
         this.setState({});
