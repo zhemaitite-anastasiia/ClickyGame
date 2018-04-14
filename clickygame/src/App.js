@@ -79,7 +79,7 @@ class App extends Component {
       this.setState({ score:0 })
     }
 
-    //Map over this.state.images and render Cards component for each friend object
+    //Map over this.state.images and render Cards component for each image object
 
    render() {
      return (
